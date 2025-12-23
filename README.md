@@ -7,14 +7,24 @@ Web-based port of GTA: Vice City running in browser via WebAssembly.
 - Python 3.8+
 - Dependencies from `requirements.txt`
 
-## Installation
 
+## Setup & Running
+
+### Option 1: Using Docker (Recommended)
+The easiest way to get started is using Docker Compose:
+
+```bash
+docker compose up -d --build
+```
+
+### Option 2: Local Installation
+
+1. Install Python dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-## Running
-
+2. Start the server:
 ```bash
 python server.py
 ```
